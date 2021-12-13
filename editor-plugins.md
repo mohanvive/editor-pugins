@@ -105,6 +105,9 @@ This feature allows you to rename symbols by renaming all the references of the 
 #### Code Actions
 There are two types of code actions suggested based on the node at a given cursor position and based on the diagnostic at a given cursor position.
 
+![Create Variable](/learn/images/create-variable.gif)
+![Document This](/learn/images/document-this.gif)
+
 ##### Create Variable Code Actions
 Below demonstrate the types of code actions available for creating a variable.
 - `Create variable`: Create a variable for an expression where the `Variable Assignment Required` diagnostic is present.
