@@ -48,11 +48,36 @@ Follow the steps below to create a sample Ballerina program in VSCode.
 
 ### Source Code View
 
+#### Code completion & snippets
 
+
+#### Code Formatting
+
+
+#### Diagnostics
+
+
+#### Debugging
+
+
+#### IntelliSense
+
+
+#### Code Navigation
+
+
+#### Rename Symbols
+
+
+#### Code Actions
+
+
+#### Code Lens
+
+
+#### Commands
 
 ### Low Code View
-
-
 
 
 ## Configuration
