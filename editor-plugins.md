@@ -103,7 +103,42 @@ This feature allows you to rename symbols by renaming all the references of the 
 ![Rename Symbols](/learn/images/rename-symbols.gif)
 
 #### Code Actions
+There are two types of code actions suggested based on the node at a given cursor position and based on the diagnostic at a given cursor position.
 
+##### Create Variable Code Actions
+Below demonstrate the types of code actions available for creating a variable.
+- `Create variable`: Create a variable for an expression where the `Variable Assignment Required` diagnostic is present.
+- `Create variable and type guard`: Create a type guard to handle the error gracefully when the `Variable assignment Required` diagnostic is present.
+- `Create variable and check error`: Add a check expression when the `Variable assignment Required` diagnostic is present.
+- `Ignore return value`: Ignore the return value with the `_` where the `Variable Assignment Required` diagnostic is present.
+
+##### Code Actions for Union Types
+Below demonstrate the code actions available for union type variables.
+- `Type guard variable`: Type guard a variable, if the variable is of the union type.
+- `Add check error`: When there is an error union, add a check statement.
+
+##### Code Actions for Imports
+Below demonstrate the code actions available for imports.
+- `Import a module`: Add the import statement for a module, which has a reference without an import statement. This supports only the language library and the standard library.
+- `Optimize imports`: Optimize the import statements to remove unused imports and arrange the imports in alphabetical order.
+
+##### Code Actions for Documentation
+Below demonstrate the code actions available for documentation.
+- `Document this`: Add the documentation to the top-level constructs, resources, and methods.
+- `Document all`: Document all the top-level constructs.
+- `Update documentation`: Update the existing documentation when parameters are missing or not documented. This depends on the warning diagnostic sent by the compiler.
+
+##### Code Actions for Incompatible Types
+Below demonstrate the code actions available for incompatible types.
+- `Change variable type`: Changes the type of a variable.
+- `Add type cast`: Add a type cast for the incompatible types. 
+- `Fix return type`: Changes the incompatible return type.
+- `Change parameter type`: Changes the type of a function/ method parameter.
+
+##### Code Actions for Create Functions 
+Below demonstrate the code actions available for creating functions.
+- `Create a function`: Creates a function using the selected variables/parameters.
+- `Implement a method`: Implements the selected method.
 
 #### Code Lens
 ##### Documentation Code Lens
