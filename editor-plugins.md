@@ -51,8 +51,6 @@ Follow the steps below to create a sample Ballerina program in VSCode.
 <details open>
 <summary>IntelliSense</summary>
 
-![Code Completion](/learn/images/code-completion.gif)
-
 ##### Code completion & snippets
 The extension provides you with suggestions on variables, keywords, and code snippets of language constructs (such as functions, type definitions, services, iterable constructs, etc.)
 
