@@ -68,9 +68,7 @@ When hovering over a symbol name, you will be provided with quick information ab
 When typing a function/method call expression, the signature help will show information such as the function/method call’s description and parameter information. Signature help will be triggered when typing the open parenthesis and comma.
 
 ![Signature Help](/learn/images/signature-help.gif)
-
 </details>
-
 <details>
 <summary>Code Formatting</summary>
 Code formatting has the two options below. 
