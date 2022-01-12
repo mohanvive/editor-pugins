@@ -48,7 +48,8 @@ Follow the steps below to create a sample Ballerina program in VSCode.
 
 ### Source Code View
 
-#### IntelliSense
+<details open>
+<summary>IntelliSense</summary>
 
 ##### Code completion & snippets
 The extension provides you with suggestions on variables, keywords, and code snippets of language constructs (such as functions, type definitions, services, iterable constructs, etc.)
@@ -64,7 +65,10 @@ When typing a function/method call expression, the signature help will show info
 
 ![Signature Help](/learn/images/signature-help.gif)
 
-#### Code Formatting
+</details>
+
+<details>
+<summary>Code Formatting</summary>
 Code formatting has the two options below. 
 
   - Formatting a document 
@@ -74,16 +78,25 @@ Code formatting has the two options below.
   - Formatting a selected range in the document
 
   ![Formatting a Document Range](/learn/images/format-document-range.gif)
+</details>
 
-#### Diagnostics
+<details>
+<summary>Diagnostics</summary>
+
 The diagnostics show you the syntax and semantic errors in the source code. Varieties of diagnostics such as errors and warnings will be shown. For a selected set of diagnostics, you can see the quick fixes. For example, the `variable assignment is required` diagnostic will have two associated quick fixes to create a new variable and ignore the return value.
 
 ![Diagnostics](/learn/images/diagnostics.gif)
 
-#### Debugging
+</details>
+
+<details>
+<summary>Debugging</summary>
 
 
-#### Code Navigation
+</details>
+
+<details>
+<summary>Code Navigation</summary>
 
 ##### Go to Definition 
 
@@ -102,7 +115,11 @@ This feature allows you to rename symbols by renaming all the references of the 
 
 ![Rename Symbols](/learn/images/rename-symbols.gif)
 
-#### Code Actions
+</details>
+
+<details>
+<summary>Code Actions</summary>
+
 There are two types of code actions suggested based on the node at a given cursor position and based on the diagnostic at a given cursor position.
 
 ![Create Variable](/learn/images/create-variable.gif)
@@ -143,7 +160,11 @@ Below demonstrate the code actions available for creating functions.
 - `Create a function`: Creates a function using the selected variables/parameters.
 - `Implement a method`: Implements the selected method.
 
-#### Code Lens
+</details>
+
+<details>
+<summary>Code Lens</summary>
+
 ##### Documentation Code Lens
 
 The `Document This` code lens is shown for the public functions without documentation. 
@@ -156,6 +177,11 @@ Run and debug code lenses are shown for the entry points of the Ballerina projec
 
 ![Run and Debug Code Lenses](/learn/images/run-and-debug-code-lenses.gif)
 
+</details>
+
+<details>
+<summary>Commands</summary>
+
 #### Commands
 - **Show Examples**: It lists the available examples of the Ballerina language. By clicking on each example, you can explore each source code. 
 - **Build**: It is a quick access to build your Ballerina project. Once executed, the current Ballerina project relative to the currently-opened text editor is built using the `bal build` CLI command.
@@ -166,6 +192,8 @@ Run and debug code lenses are shown for the entry points of the Ballerina projec
 - **Add Module**: It adds a [Ballerina module](/learn/user-guide/ballerina-packages/modules/) for the given module name using the `bal add` CLI command.  
 - **Create 'Cloud.toml'**: It generates a `Cloud.toml` file for your Ballerina project according to the default [cloud specifications](https://github.com/ballerina-platform/ballerina-spec/blob/master/c2c/code-to-cloud-spec.md).
 - **Paste JSON as Record**: This command converts a JSON string (that is copied to the clipboard) to a Ballerina record(s) and pastes it in your code.
+
+</details>
 
 ### Low Code View
 
