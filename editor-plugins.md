@@ -1,10 +1,16 @@
-# Editor Plugins Guide
+# The Ballerina Extension for Visual Studio Code
 
+The Visual Studio Code Ballerina extension provides a set of rich language features along with an enhanced user experience. 
+It offers easy development, execution, debugging, and testing for the Ballerina programming language. 
+The Ballerina language possesses a bidirectional mapping between its syntaxes and the visual representation. 
+You can further visualize the graphical representation of your Ballerina source via the extension.
+
+---
 ## Quick Start
 
 ### Prerequisites
 
-Before getting started, make sure you have installed the [Visual Studio Code editor](https://code.visualstudio.com/download) and [Ballerina](/downloads).
+Before getting started, make sure you have installed the [Visual Studio Code editor](https://code.visualstudio.com/download).
 
 >**Tip:** The VSCode Ballerina extension supports both the Ballerina Swan Lake and 1.2.x versions.
 
@@ -12,15 +18,13 @@ Before getting started, make sure you have installed the [Visual Studio Code edi
 
 Follow the steps below to install the Ballerina extension.
 
-![Installing the Ballerina Extension](/learn/images/installing-the-extension.gif)
+1. [Download](https://ballerina.io/downloads/) and [install](https://ballerina.io/learn/user-guide/getting-started/setting-up-ballerina/#installing-ballerina) Ballerina.
+2. [Install](https://ballerina.io/learn/tooling-guide/visual-studio-code-extension/quick-start/#installing-the-ballerina-extension) Ballerina VS Code Extension. Launch VS Code Quick Open (`Ctrl + P`), and paste following `ext install WSO2.ballerina`
+3. Open a Ballerina `.bal` file or a package directory to activate the extension.
 
-1. Go to the <a target="_blank" href="https://marketplace.visualstudio.com/items?itemName=wso2.ballerina&ssr=false">Ballerina extension</a> in the Visual Studio Code Marketplace, and click **Install**.
+	**Info:** When the extension is activated, you can see the `Ballerina SDK: <version>` in the status bar at the bottom left corner.
 
-2. Click **Open Visual Studio Code** and install the extension.
-
-  >**Tip:** To verify if the extension is installed, check if the Ballerina SDK Version is displayed on the VSCode status bar. If you get `Ballerina SDK: Error` or `Ballerina SDK: Detecting` on the status bar, [enable extension debug logs](/learn/tooling-guide/visual-studio-code-extension/configurations/#debug-log) to troubleshoot.
-
-  ![Diagrams View](/learn/images/show-version-on-vscode.png)
+    ![Diagrams View](/learn/images/show-version-on-vscode.png)
 
 ### Running Your First Ballerina Program
 
