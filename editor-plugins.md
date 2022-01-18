@@ -82,13 +82,12 @@ The diagnostics show you the syntax and semantic errors in the source code. Vari
 
 #### Debugging
 
-The VS Code Ballerina extension allows you to either run your Ballerina program (without debugging) or debug them easily by launching its debugger.
+The VS Code Ballerina language extension comes with in-built debugging capabilities and provides the same debugging experience as the conventional VS Code Debugging.
 
 >**Info:** For more information on debugging your code using VS Code, go to the [VS Code Documentation](https://code.visualstudio.com/docs/editor/debugging).
 
 ##### Starting a Debug Session
 
-The VS Code Ballerina extension gives you the same debugging experience as the conventional VS Code Debugger.
 We can start a quick debug session instantly to debug a ballerina program with `CodeLens`. We also can start a debug session with configurations
 like program arguments and environment variables by adding them into the `launch.json` file.
 
@@ -111,7 +110,7 @@ Follow the steps below to start a quick debug session.
 
 ###### Starting a Test Debug Session
 
-The Ballerina test functions can also be debugged with the similar steps explained above.
+The Ballerina test functions can also be debugged using the codelens. The `debug` codelens will automatically appear on top of each Ballerina test function and the users are able to execute/debug only a selected test case by clicking on the corresponding codelens, as shown below.
 
 ![Start_Test Quick Debug Session](/learn/images/start-quick-test-debug-session.gif)
 
@@ -173,7 +172,9 @@ Follow the steps below to start a test debug session.
 
 ###### Starting a Remote Debug Session
 
-Follow the steps below to start a remote debug session.
+Start remote debugging with [Debug Session with Configurations](#debug-session-with-configurations).
+
+After setting the configurations, follow the steps below to start a remote debug session.
 
 1. Select **Ballerina Remote** from the drop-down available in the upper left corner to start a remote debugging session.
 
