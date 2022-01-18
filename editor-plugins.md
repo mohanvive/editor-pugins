@@ -92,20 +92,14 @@ The VS Code Ballerina extension gives you the same debugging experience as the c
 We can start a quick debug session instantly to debug a ballerina program with `CodeLens`. We also can start a debug session with configurations
 like program arguments and environment variables by adding them into the `launch.json` file.
 
-###### Quick Debug Session with CodeLens
+###### Starting a Program Debug Session
 
 Ballerina extension provides multiple options to debug your Ballerina program and the easiest way will be using our context-aware `Debug` CodeLens support provided by the extension.
-The extension can detect any program entry points (main function/service definition) on the fly, and the CodeLens will appear automatically. 
-
-Quick Debug Session is useful to debug main function, services and single tests. 
+The extension can detect any program entry points (main function/service definition) on the fly, and the CodeLens will appear automatically.  
 
 Follow the steps below to start a quick debug session.
 
 ![Start_Main Quick Debug Session](/learn/images/start-quick-main-debug-session.gif)
-
-<br/>
-
-![Start_Test Quick Debug Session](/learn/images/start-quick-test-debug-session.gif)
 
 <br/>
 
@@ -114,6 +108,14 @@ Follow the steps below to start a quick debug session.
 2. Add the debug points you require by clicking in front of the line numbers of the file you want to debug.
 
 3. Click the `Debug` CodeLens which is just above the `main()` method.
+
+###### Starting a Test Debug Session
+
+The Ballerina test functions can also be debugged with the similar steps explained above.
+
+![Start_Test Quick Debug Session](/learn/images/start-quick-test-debug-session.gif)
+
+<br/>
 
 ###### Debug Session with Configurations
 
@@ -169,7 +171,7 @@ Follow the steps below to start a test debug session.
 
 <br/>
 
-####### Starting a Remote Debug Session
+###### Starting a Remote Debug Session
 
 Follow the steps below to start a remote debug session.
 
@@ -208,27 +210,6 @@ Follow the steps below to start a remote debug session.
     ![Remote Debug](/learn/images/remote-debug.gif)
 
 <br/>
-
-##### Running Without Debugging
-
-Follow the steps below to run your program (without debugging).
-
-1. On the VSCode editor, open the Ballerina program file you want to run.
-
-2. Click **Run** in the top menu, and then click **Run Without Debugging**.
-
-3. Select **Ballerina Debug** as the **Environment**.
-
-You view the program being executed in the **DEBUG CONSOLE** as shown below.
-
-![Run Without Debugging](/learn/images/run-without-debugging.gif)
-
-<br/>
-
-####### Existing Limitations
-
-- Anonymous function, let, and constructor expressions are currently not supported.
-- Limited support for Ballerina actions (only remote method call actions are supported)
 
 ##### Debug Configurations
 
