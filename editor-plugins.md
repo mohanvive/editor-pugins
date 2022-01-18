@@ -200,6 +200,7 @@ Run and debug code lenses are shown for the entry points of the Ballerina projec
 
 ### Low Code View
 
+![Low Code View - Diagram View](/learn/images/low-code-view.gif)
 
 ## Configuration
 - **Code Lens - All: Enabled** : It enables all code lens features irrespective of the **Code Lens - Docs: Enabled** and **Code Lens - Executor: Enabled** settings and is enabled by default.
