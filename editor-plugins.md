@@ -227,7 +227,7 @@ Follow the steps below to start a remote debug session.
 
 ##### Using the Debugging Features
 
-The following debugging features are currently supported by Ballerina.
+The following debugging features are currently supported by the Ballerina VScode extension.
 
 - Launch/Attach
 - Breakpoints
