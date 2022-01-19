@@ -170,7 +170,7 @@ Below demonstrate the code actions available for creating functions.
 
 ##### Documentation Code Lens
 
-The `Document This` code lens is shown for the public functions without documentation. 
+The `Document This` code lens is shown for the public functions without the documentation. 
 
 ![Documentation Code Lens](/learn/images/documentation-code-lens.gif)
 
