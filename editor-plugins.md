@@ -84,8 +84,6 @@ The diagnostics show you the syntax and semantic errors in the source code. Vari
 
 The VS Code Ballerina language extension comes with in-built debugging capabilities and provides the same debugging experience as the conventional VS Code Debugging.
 
->**Info:** For more information on debugging your code using VS Code, go to the [VS Code Documentation](https://code.visualstudio.com/docs/editor/debugging).
-
 ##### Starting a Debug Session
 
 We can start a quick debug session instantly to debug a ballerina program with `CodeLens`. We also can start a debug session with configurations
@@ -172,13 +170,15 @@ Follow the steps below to start a test debug session.
 
 ###### Starting a Remote Debug Session
 
-Start remote debugging with [Debug Session with Configurations](#debug-session-with-configurations).
+Follow the steps below to start a remote debug session.
 
-After setting the configurations, follow the steps below to start a remote debug session.
+1. Create the `launch.json` file to add debug configurations if it is not created already. Refer [Debug Session with Configurations](#debug-session-with-configurations) section on how to create the `launch.json` file.
 
-1. Select **Ballerina Remote** from the drop-down available in the upper left corner to start a remote debugging session.
+2. Add relevant `debuggeeHost` and `debuggeePort` under `Ballerina Remote` configurations section in the `launch.json` file.
 
-2. Open the Terminal and execute the Ballerina command, which you want to debug, out of the supported remote debugging commands below. 
+3. After setting the remote debug configurations, select **Ballerina Remote** from the drop-down available in the upper left corner to start a remote debugging session.
+
+4. Open the Terminal and execute the Ballerina command, which you want to debug, out of the supported remote debugging commands below. 
 
     - Debugging a Ballerina package or a single file: 
 
@@ -204,13 +204,30 @@ After setting the configurations, follow the steps below to start a remote debug
     Listening for transport dt_socket at address: 5005
     ```
 
-3. Click the **Start Debugging** icon on the upper left corner to start debugging.
+5. Click the **Start Debugging** icon on the upper left corner to start debugging.
 
     You view the output in the **DEBUG CONSOLE**.
 
     ![Remote Debug](/learn/images/remote-debug.gif)
 
 <br/>
+
+##### Using the Debugging Features
+
+The following debugging features are supported by Ballerina.
+
+- Launch/Attach
+- Breakpoints
+  - Conditional Breakpoints
+  - Logpoints
+- Pause & Continue
+- Step In/Out/Over
+- Variables
+- Call Stacks
+- Strands
+- Expression Evaluation
+
+>**Info:** For more information on debugging features using VS Code, go to the [VS Code Documentation](https://code.visualstudio.com/docs/editor/debugging).
 
 ##### Debug Configurations
 
