@@ -178,7 +178,7 @@ The `Document This` code lens is shown for the public functions without the docu
 
 Run and debug code lenses are shown for the entry points of the Ballerina project and for its test cases. The entry points include the main function and the services within the default module of the project.
 
-![Run and Debug Code Lenses](/learn/images/run-and-debug-code-lenses.gif)
+![Run and Debug Code Lenses](/learn/images/run-and-debug-code-lens.gif)
 
 </details>
 
