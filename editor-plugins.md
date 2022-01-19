@@ -192,7 +192,7 @@ Run and debug code lenses are shown for the entry points of the Ballerina projec
 - **Test**: It runs all the tests in your Ballerina project using the `bal test` CLI command.
 - **Build Documentation**: It is a quick guide to generate documentation for your Ballerina project. Once executed, the documentation is generated using the `bal doc` CLI command. The generated documentation can be found inside the `apidocs` directory in the project `target`.
 - **Show Diagram**: It is a palette reference to access the **Diagrams**. On execution, the diagram editor of the first diagram component listed under the **Diagrams** view is rendered.
-- **Add Module**: It adds a [Ballerina module](/learn/user-guide/ballerina-packages/modules/) for the given module name using the `bal add` CLI command.  
+- **Add Module**: It adds a [Ballerina module](https://ballerina.io/learn/organizing-ballerina-code/modules/) for the given module name using the `bal add` CLI command.  
 - **Create 'Cloud.toml'**: It generates a `Cloud.toml` file for your Ballerina project according to the default [cloud specifications](https://github.com/ballerina-platform/ballerina-spec/blob/master/c2c/code-to-cloud-spec.md).
 - **Paste JSON as Record**: This command converts a JSON string (that is copied to the clipboard) to a Ballerina record(s) and pastes it in your code.
 
@@ -204,15 +204,15 @@ Run and debug code lenses are shown for the entry points of the Ballerina projec
 
 ## Configuration
 - **Code Lens - All: Enabled** : It enables all code lens features irrespective of the **Code Lens - Docs: Enabled** and **Code Lens - Executor: Enabled** settings and is enabled by default.
-- **Code Lens - Docs: Enabled** : It enables the **Documentation** [code lens](#source-code-view) feature, which provides Ballerina document generation capabilities and is enabled by default. This configuration is overridden by the **Code Lens - All: Enabled** settings.
-- **Code Lens - Executor: Enabled** : It enables the **Executor** [code lens](/learn/tooling-guide/visual-studio-code-extension/language-support/#run-and-debug-code-lenses) feature, which provides quick run and debug capabilities for the Ballerina language. It is enabled by default. This configuration is overridden by the **Code Lens - All: Enabled** settings.
+- **Code Lens - Docs: Enabled** : It enables the **Documentation** [code lens](#documentation-code-lens) feature, which provides Ballerina document generation capabilities and is enabled by default. This configuration is overridden by the **Code Lens - All: Enabled** settings.
+- **Code Lens - Executor: Enabled** : It enables the **Executor** [code lens](#run-and-debug-code-lenses) feature, which provides quick run and debug capabilities for the Ballerina language. It is enabled by default. This configuration is overridden by the **Code Lens - All: Enabled** settings.
 - **Data Mapper: Url** : It specifies the URL of the [data mapping](/learn/tooling-guide/visual-studio-code-extension/language-support/#data-mapping) service backend.
 - **Debug Log** : It enables printing debug messages on to the Ballerina output channel and is disabled by default. These debug logs mainly include additional logs added for troubleshooting the extension.
 - **Enable File Watcher** : It enables watching file change events of the Ballerina project and is enabled by default.
 - **Ballerina: Enable Performance Forecast** :
 - **Ballerina: Enable Semantic Highlighting** : 
 - **Enable Telemetry** : It enables the Ballerina [telemetry](https://code.visualstudio.com/docs/getstarted/telemetry) service and is enabled by default. 
-- **Home** - It specifies the Ballerina home directory path and is only applicable if the **Plugin - Dev: Mod**  [setting](/learn/tooling-guide/visual-studio-code-extension/configurations/#plugin---dev-mod) is enabled.
+- **Home** - It specifies the Ballerina home directory path and is only applicable if the **Plugin - Dev: Mod** is enabled.
 - **Ballerina: Low Code Mode** : 
 - **Ballerina: Plugin Dev Mode** : It enables the plugin development mode and is disabled by default. If it is disabled, the extension picks up the Ballerina runtime installed in the environment. Also, if it is enabled, the extension picks up the Ballerina runtime defined in the **Home** [configuration](/learn/tooling-guide/visual-studio-code-extension/configurations/#home).
 - **Ballerina: Trace Log** : It enables printing trace messages onto the Ballerina output channel and is disabled by default. These trace logs mainly include the details of the requests sent from the extension to the Ballerina Language Server.
