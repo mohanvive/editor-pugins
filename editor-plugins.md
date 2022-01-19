@@ -96,7 +96,7 @@ The diagnostics show you the syntax and semantic errors in the source code. Vari
 <summary>Debugging</summary>
 
 The Ballerina VS Code extension comes with builtin debugging capabilities, so that the Ballerina users can seamlessly troubleshoot their applications at runtime. 
-It allows you to debug Ballerina applications, services, tests and also provides remote debugging capabilities out of the box.
+It allows you to debug Ballerina programs, services, tests and also provides remote debugging capabilities out of the box.
 
 The below are some of the key debugging features provided by the Ballerina language extension.
 - Launch/Attach
