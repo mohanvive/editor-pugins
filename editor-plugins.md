@@ -389,7 +389,6 @@ Run and debug code lenses are shown for the entry points of the Ballerina projec
 <details>
 <summary>Commands</summary>
 
-#### Commands
 - **Show Examples**: It lists the available examples of the Ballerina language. By clicking on each example, you can explore each source code. 
 - **Build**: It is a quick access to build your Ballerina project. Once executed, the current Ballerina project relative to the currently-opened text editor is built using the `bal build` CLI command.
 - **Run**: It runs your Ballerina project. Once executed, the opened Ballerina project is built using the `bal run` CLI command.
