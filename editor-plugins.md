@@ -227,10 +227,10 @@ Run and debug code lenses are shown for the entry points of the Ballerina projec
 - **Debug Log** : It enables printing debug messages on to the Ballerina output channel and is disabled by default. These debug logs mainly include additional logs added for troubleshooting the extension.
 - **Enable File Watcher** : It enables watching file change events of the Ballerina project and is enabled by default.
 - **Ballerina: Enable Performance Forecast** :
-- **Ballerina: Enable Semantic Highlighting** : 
+- **Ballerina: Enable Semantic Highlighting** : Semantic highlighting is enabled by default in the plugin. Users have an option to disable this and rely with syntax highlighting.
 - **Enable Telemetry** : It enables the Ballerina [telemetry](https://code.visualstudio.com/docs/getstarted/telemetry) service and is enabled by default. 
 - **Home** - It specifies the Ballerina home directory path and is only applicable if the **Plugin - Dev: Mod** is enabled.
-- **Ballerina: Low Code Mode** : 
+- **Ballerina: Low Code Mode** : This sets the low code as the default view of the plugin. Source code is the default view in a fresh installation. 
 - **Ballerina: Plugin Dev Mode** : It enables the plugin development mode and is disabled by default. If it is disabled, the extension picks up the Ballerina runtime installed in the environment. Also, if it is enabled, the extension picks up the Ballerina runtime defined in the **Home** [configuration](/learn/tooling-guide/visual-studio-code-extension/configurations/#home).
 - **Ballerina: Trace Log** : It enables printing trace messages onto the Ballerina output channel and is disabled by default. These trace logs mainly include the details of the requests sent from the extension to the Ballerina Language Server.
 
