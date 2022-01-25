@@ -196,7 +196,7 @@ The `Document This` code lens is shown for the public functions without the docu
 
 Run and debug code lenses are shown for the entry points of the Ballerina project and for its test cases. The entry points include the main function and the services within the default module of the project.
 
-![Run and Debug Code Lenses](/learn/images/run-and-debug-code-lens.gif)
+![Run and Debug Code Lenses](/learn/images/run-debug-code-lens.gif)
 
 </details>
 
@@ -226,7 +226,7 @@ Run and debug code lenses are shown for the entry points of the Ballerina projec
 - **Data Mapper: Url** : It specifies the URL of the [data mapping](/learn/tooling-guide/visual-studio-code-extension/language-support/#data-mapping) service backend.
 - **Debug Log** : It enables printing debug messages on to the Ballerina output channel and is disabled by default. These debug logs mainly include additional logs added for troubleshooting the extension.
 - **Enable File Watcher** : It enables watching file change events of the Ballerina project and is enabled by default.
-- **Ballerina: Enable Performance Forecast** :
+- **Ballerina: Enable Performance Forecast** : It enables to provide estimates on performance of the services.
 - **Ballerina: Enable Semantic Highlighting** : Semantic highlighting is enabled by default in the plugin. Users have an option to disable this and rely with syntax highlighting.
 - **Enable Telemetry** : It enables the Ballerina [telemetry](https://code.visualstudio.com/docs/getstarted/telemetry) service and is enabled by default. 
 - **Home** - It specifies the Ballerina home directory path and is only applicable if the **Plugin - Dev: Mod** is enabled.
