@@ -93,6 +93,8 @@ The diagnostics show you the syntax and semantic errors in the source code. Vari
 </details>
 
 <details>
+
+<h4 class="hidden">Debugging</h4>
 <summary>Debugging</summary>
 
 The Ballerina VS Code extension comes with builtin debugging capabilities, so that the Ballerina users can seamlessly troubleshoot their applications at runtime. 
